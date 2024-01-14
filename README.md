@@ -22,4 +22,6 @@ Key Learnings
 Command Interpreter in Python:
 Demonstrates how to create a command interpreter using the cmd module.
 
+Python Package Creation:
+Provides insights into creating a Python package for better organization.
 
