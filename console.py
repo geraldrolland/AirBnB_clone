@@ -167,7 +167,10 @@ class HBNBCommand(cmd.Cmd):
 
     @classmethod
     def class_list(cls):
-        return ["BaseModel", "User", "Review", "Place", "City", "Amenity", "State"]
+        cl1 = ["BaseModel", "Review", "User"]
+        cl2 = ["Place", "City", "Amenity", "State"]
+        cl2.extend(cl1)
+        return cl2
 
 
 if __name__ == "__main__":
