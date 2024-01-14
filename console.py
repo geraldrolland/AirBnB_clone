@@ -26,11 +26,11 @@ class HBNBCommand(cmd.Cmd):
 
     def do_EOF(self, args):
         """exit the command line interpreter on keyboard interrupt\n"""
+        print()
         return True
 
     def do_create(self, args):
-        """Creates a new instance of BaseModel, saves it (to the JSON file)
-        and prints the id\n
+        """Creates a new instance of BaseModel, saves it (to the JSON file)\n
         """
         if args == "":
             print("** class name missing **")
@@ -56,8 +56,7 @@ class HBNBCommand(cmd.Cmd):
         return (HBNBCommand.check_isatty())
 
     def do_show(self, args):
-        """Prints the string representation
-        of an instance based on the class name and id\n
+        """Prints the string representation of an instance\n
         """
         if len(args) == 0:
             print("** class name missing **")
@@ -81,8 +80,7 @@ class HBNBCommand(cmd.Cmd):
         return (HBNBCommand.check_isatty())
 
     def do_destroy(self, args):
-        """Deletes an instance based on the class name
-        and id (save the change into the JSON file)\n
+        """Deletes an instance based on the class name\n
         """
         if args == "":
             print("** class name missing **")
@@ -107,8 +105,7 @@ class HBNBCommand(cmd.Cmd):
         return (HBNBCommand.check_isatty())
 
     def do_all(self, args):
-        """Prints all string representation of all
-        instances based or not on the class name
+        """Prints all string representation of all instances\n
         """
         if args not in HBNBCommand.class_list() and args != "":
             print("** class doesn't exist **")
@@ -122,8 +119,7 @@ class HBNBCommand(cmd.Cmd):
         return (HBNBCommand.check_isatty())
 
     def do_update(self, args):
-        """Updates an instance based on the class name and id
-           by adding or updating attribute (save the change into the JSON file)
+        """Updates an instance based on the class name\n
         """
         if args == "":
             print("** class name missing **")
@@ -155,6 +151,10 @@ class HBNBCommand(cmd.Cmd):
     def default(self, line):
         super().default(line)
         return (HBNBCommand.check_isatty())
+
+    def emptyline(self):
+        """does nothing"""
+        pass
 
     @classmethod
     def check_isatty(cls):
