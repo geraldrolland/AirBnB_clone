@@ -17,3 +17,9 @@ Introduces the initial storage engine for the project, specifically a File stora
 Unit Testing:
 Implements comprehensive unit tests to validate the functionality of all classes and the storage engine.
 
+Key Learnings
+
+Command Interpreter in Python:
+Demonstrates how to create a command interpreter using the cmd module.
+
+
