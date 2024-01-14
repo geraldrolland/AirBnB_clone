@@ -31,5 +31,8 @@ Explains the concept of unit testing and its implementation in a larger project 
 JSON File Handling:
 Offers guidance on reading and writing JSON files.
 
+Serialization and Deserialization:
+Explains the process of deserializing and serializing a Class instance.
+
 
 
