@@ -8,3 +8,8 @@ Parent Class (BaseModel):
 Responsible for initializing, serializing, and deserializing future instances.
 Establishes a streamlined flow of serialization/deserialization: Instance <-> Dictionary <-> JSON string <-> File.
 
+Creation of AirBnB Classes:
+Develops classes for all entities used in AirBnB (User, State, City, Place, etc.), each inheriting from the BaseModel.
+
+Abstracted Storage Engine:
+Introduces the initial storage engine for the project, specifically a File storage system
