@@ -11,6 +11,7 @@ from models.place import Place
 
 class TestPlace(unittest.TestCase):
     """Defines the class TestPlace"""
+
     def test_place_city_id(self):
         """test city instance for attribute city_id"""
         place = Place()

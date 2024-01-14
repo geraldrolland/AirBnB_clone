@@ -12,6 +12,7 @@ from models.base_model import BaseModel
 
 class TestReview(unittest.TestCase):
     """Defines the class TestReview"""
+
     def test_review_place_id(self):
         """test review instance attribute place_id"""
         review = Review()

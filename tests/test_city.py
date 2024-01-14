@@ -12,6 +12,7 @@ import unittest
 
 class TestCity(unittest.TestCase):
     """Defines the class TestCity"""
+
     def test_city_hasattr_state_id(self):
         """test the city instance for the attribute state_id
         """
@@ -57,3 +58,4 @@ class TestCity(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+

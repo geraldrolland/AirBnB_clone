@@ -11,8 +11,10 @@ import json
 
 
 class Test_FileStorage(unittest.TestCase):
-    """test all() method """
+    """Defines a class Test_FileStorage"""
+
     def test_all(self):
+        """test all() method"""
         my_model = BaseModel()
         my_model.save()
         storage.reload()
@@ -46,3 +48,4 @@ class Test_FileStorage(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+

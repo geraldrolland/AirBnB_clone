@@ -10,6 +10,7 @@ from models.base_model import BaseModel
 
 class Test_BaseModel(unittest.TestCase):
     """Define the class Test_BaseModel"""
+
     def test_save(self):
         """This method test the save method for json
         serialization
@@ -43,3 +44,4 @@ class Test_BaseModel(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
