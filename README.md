@@ -34,5 +34,12 @@ Offers guidance on reading and writing JSON files.
 Serialization and Deserialization:
 Explains the process of deserializing and serializing a Class instance.
 
+UUID Usage:
+Describes the purpose and application of Universally Unique Identifiers (UUIDs).
+
+Datetime Management:
+Demonstrates the effective management of datetime in Python.
+
+
 
 
