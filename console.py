@@ -51,6 +51,8 @@ class HBNBCommand(cmd.Cmd):
             my_model = State()
         elif args == "City":
             my_model = City()
+        elif args == "Review":
+            my_model = Review()
         my_model.save()
         print(my_model.id)
         return (HBNBCommand.check_isatty())
@@ -165,7 +167,7 @@ class HBNBCommand(cmd.Cmd):
 
     @classmethod
     def class_list(cls):
-        return ["BaseModel", "User", "Review", "Place", "City", "Amenity"]
+        return ["BaseModel", "User", "Review", "Place", "City", "Amenity", "State"]
 
 
 if __name__ == "__main__":
