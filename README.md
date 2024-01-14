@@ -40,6 +40,11 @@ Describes the purpose and application of Universally Unique Identifiers (UUIDs).
 Datetime Management:
 Demonstrates the effective management of datetime in Python.
 
+*kwargs and args:
+Explores the usage of **kwargs and *args in function definitions.
 
+Named Arguments Handling:
+Provides insights into handling named arguments in functions.
+This project serves as an educational resource and practical example, delving into key concepts and practices essential for building sophisticated applications.
 
 
