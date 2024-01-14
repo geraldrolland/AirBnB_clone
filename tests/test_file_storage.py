@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-
-
 """
 This module defines the class Test_FileStorage
 """
@@ -48,4 +46,3 @@ class Test_FileStorage(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-

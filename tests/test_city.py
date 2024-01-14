@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-
-
 """
 This module defines the class Testcity
 """
@@ -58,4 +56,3 @@ class TestCity(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-

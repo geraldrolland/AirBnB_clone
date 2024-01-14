@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-
-
 """
 This module defines the class Test_BaseModel
 """
@@ -44,4 +42,3 @@ class Test_BaseModel(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
