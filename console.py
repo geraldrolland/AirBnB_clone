@@ -18,7 +18,7 @@ from models import storage
 # precmd --> parseline ---> onecmd --> postcmd
 class HBNBCommand(cmd.Cmd):
     """Defines a class MyConsole"""
-    prompt = "(hnbnb) "
+    prompt = "(hbnb) "
 
     def do_quit(self, args):
         """Quit the command line intepreter\n"""
